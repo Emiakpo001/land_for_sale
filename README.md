@@ -106,28 +106,37 @@ Land_for_sale is a real estate web application designed to showcase available la
 Land_for_sale/
 │
 ├── client/
-│   ├── public/
 │   ├── src/
-│   │   ├── assets/
 │   │   ├── components/
+│   │   │   ├── Navbar.jsx
+│   │   │   ├── Hero.jsx
+│   │   │   ├── PropertyCard.jsx
+│   │   │   ├── MapSection.jsx
+│   │   │   ├── CommunityInfo.jsx
+│   │   │   └── Footer.jsx
+│   │   │
 │   │   ├── pages/
-│   │   ├── services/
-│   │   └── App.jsx
-│   │
-│   └── package.json
+│   │   │   ├── Home.jsx
+│   │   │   ├── Properties.jsx
+│   │   │   ├── PropertyDetails.jsx
+│   │   │   ├── About.jsx
+│   │   │   └── Contact.jsx
+│   │   │
+│   │   ├── App.jsx
+│   │   └── main.jsx
 │
-├── server/
-│   ├── controllers/
-│   ├── middleware/
-│   ├── models/
-│   ├── routes/
-│   ├── config/
-│   ├── server.js
-│   └── package.json
-│
-├── README.md
-├── .gitignore
-└── package.json
+└── server/
+    ├── models/
+    │   └── Property.js
+    ├── routes/
+    │   └── propertyRoutes.js
+    ├── controllers/
+    │   └── propertyController.js
+    └── server.js
+       │
+       ├── README.md
+       ├── .gitignore
+       └── package.json
 ```
 
 ---
